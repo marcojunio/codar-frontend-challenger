@@ -1,7 +1,3 @@
-body{
-    background-color: rgba(136, 135, 135, 0.37);
-}
-
 .menu{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -52,7 +48,7 @@ body{
 
 .container-body{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 #video-call-img{
@@ -116,8 +112,7 @@ body{
 }
 
 .list{
-    float: left;
-    margin-left: 18%;
+    margin-left: 20%;
 }
 
 ul{
@@ -142,12 +137,11 @@ ul{
 }
 
 .img-two{
-    float: right;
-    margin-right: 15%;
+    margin:3% 0 0 8%;
 }
 
 .call-you{
-    margin-top: 25%;
+    margin-top: 20%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -162,6 +156,13 @@ ul{
     padding-left: 10px;
     width: 200px;
     font-size: 18px;
+    background-color: rgba(128, 128, 128, 0.336);
+}
+
+.call-you input{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
 }
 
 .call-you button{
@@ -170,8 +171,9 @@ ul{
     font-size: 1.0em;
     color: white;
     height: 40px;
-    width: 180px;
+    width: 230px;
     cursor: pointer;
+    margin-left: 2px;
 }
 
 .call-you button:focus{
@@ -179,3 +181,37 @@ ul{
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
 }
+
+.feedback{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.feedbaack-item{
+    display: inline-block;
+    background: rgba(128, 128, 128, 0.336);
+    border-radius: 15px;
+    margin-left: 3%;
+    padding: 1.3%;
+}
+
+.icon-item{
+    width: 10%;
+}
+
+.icon-item button{
+    background-color: red;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.message{
+    width: 20%;
+}
+
+.first{
+    display: inline-block;
+}
+
+
